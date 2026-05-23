@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.1-blue" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.1.0-blue" alt="Version">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/modules-8-orange" alt="Modules">
   <img src="https://img.shields.io/badge/status-stable-brightgreen" alt="Status">
@@ -12,6 +12,10 @@
 **Clinical AI Assistant for Allergy & Immunology** — structured, evidence-based decision support across the full spectrum of allergic disease.
 
 Named from Greek *allos* (ἄλλος, foreign) + *ergon* (ἔργον, reaction): the immune system's reaction to a foreign substance.
+
+Part of the **clinical-skills** family: general medicine → [Hippocrates (clinical-skills)](https://github.com/kimogrant/clinical-skills) · allergy/immunology → **Allergos** (this repo).
+
+English | [简体中文](./README.zh.md)
 
 ---
 
@@ -52,9 +56,25 @@ Each module operates behind a **Pre-Action Checklist** gate — the assistant wi
 
 ### Installation
 
-1. **Download** [`SKILL.md`](./SKILL.md) from this repository.
-2. **Load** it into your AI assistant skill directory.
-3. **Start a session** with a clinical question:
+**Recommended** (copies `SKILL.md`, `references/`, and `examples/`):
+
+```bash
+git clone https://github.com/kimogrant/allergos.git
+cd allergos
+chmod +x skill.sh
+./skill.sh install /path/to/your/project
+```
+
+Target path: `your-project/.cursor/skills/allergos/`
+
+**Manual:** Copy this repository (or at minimum `SKILL.md` + the entire `references/` folder) into `~/.cursor/skills/allergos/` or `.cursor/skills/allergos/`.
+
+**Optional:** `npx skills add https://github.com/kimogrant/allergos` — confirm your CLI expects the skill at repo root.
+
+### Usage
+
+1. Reload Cursor (or your agent host).
+2. Invoke `/allergos` or ask an allergy question:
 
 ```
 Patient: 8-month-old with eczema, vomiting 2 hours after formula. Suspected CMPA.
@@ -80,7 +100,7 @@ Real-world case studies are available in [`examples/`](./examples/):
 User Input
     │
     ├─ Anaphylaxis Trigger Detected?
-    │   └─ YES → ⛔ EXIT. Epinephrine protocol ONLY. Route to 911.
+    │   └─ YES → ⛔ Epinephrine + 911 block FIRST (no disclaimer before). See references/module-04-anaphylaxis.md
     │
     ├─ Pre-Action Checklist Passed?
     │   └─ NO  → ⛔ PAUSE. Request missing data. Do not proceed.
@@ -119,6 +139,16 @@ The assistant immediately exits to emergency protocol if **any** of these are pr
 | LEAP / LEAP-On / EAT Studies | 2015–2016 | NEJM |
 
 ---
+
+## Repository layout
+
+| Path | Purpose |
+|------|---------|
+| `SKILL.md` | Frontmatter, hard rules, module index |
+| `references/` | Per-module clinical templates (loaded on demand) |
+| `examples/` | Case studies |
+| `skill.sh` | Install helper |
+| `CONTRIBUTING.md` | Contribution guide |
 
 ## License
 
