@@ -13,7 +13,7 @@
 
 Named from Greek *allos* (ἄλλος, foreign) + *ergon* (ἔργον, reaction): the immune system's reaction to a foreign substance.
 
-Part of the **clinical-skills** family: general medicine → [Hippocrates (clinical-skills)](https://github.com/kimogrant/clinical-skills) · allergy/immunology → **Allergos** (this repo).
+Part of the **kimogrant** agent-skills family: [Hippocrates (clinical-skills)](https://github.com/kimogrant/clinical-skills) · **Allergos** (this repo) · [CEO OS](https://github.com/kimogrant/ceo-operating-system) · [Web3 bounty PoC](https://github.com/kimogrant/web3-bounty-poc-report-skill) · [EVM audit](https://github.com/kimogrant/evm-audit-skill)
 
 English | [简体中文](./README.zh.md)
 
