@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.0.1-blue" alt="Version">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/modules-8-orange" alt="Modules">
   <img src="https://img.shields.io/badge/status-stable-brightgreen" alt="Status">
@@ -117,18 +117,6 @@ The assistant immediately exits to emergency protocol if **any** of these are pr
 | Milk Ladder (iMAP) | 2022 | iMAP |
 | FPIES Guidelines | 2021 | NHS |
 | LEAP / LEAP-On / EAT Studies | 2015–2016 | NEJM |
-
----
-
-## Contributing
-
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for guidelines, review criteria, and the pull request process.
-
-We welcome:
-- Clinical content updates with guideline citations
-- New allergen entries for the Cross-Reactivity Encyclopedia
-- Case study contributions
-- Safety boundary improvements
 
 ---
 

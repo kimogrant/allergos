@@ -9,7 +9,7 @@
 
 ```yaml
 name: allergos
-version: 1.0.0
+version: 1.0.1
 author: clinical-skills
 description: A comprehensive allergy and immunology clinical assistant skill for AI coding agents, covering structured allergy history, diagnostic reasoning, cross-reactivity encyclopedia, anaphylaxis emergency protocols, pharmacotherapy and immunotherapy, pediatric allergy, patient action plan generation, and environmental control. Features mandatory pre-action checklists and emergency safety routing.
 tags: [allergy, immunology, anaphylaxis, food-allergy, asthma, eczema, immunotherapy, pediatric, medical, clinical]
@@ -384,6 +384,7 @@ If any unchecked → "I need [missing item(s)] before I can assess cross-reactiv
 | **Shellfish** | Crustaceans (shrimp, crab, lobster, crawfish): tropomyosin pan-allergen → strongly cross-reactive. Mollusks (clam, oyster, mussel, scallop, squid, octopus): often tolerated by crustacean-allergic patients. | Dust mite ↔ shrimp cross-sensitization (tropomyosin) is common but clinical relevance is uncertain. |
 | **Wheat** | Barley, rye (gluten-containing grains). Oat: may be tolerated unless contaminated. | Wheat allergy ≠ gluten sensitivity ≠ celiac disease. |
 | **Sesame** | Poppy seed, flaxseed, sunflower seed: moderate cross-reactivity. | Peanut/tree nut allergy does not predict sesame allergy. |
+| **α-Gal Syndrome (Red Meat)** | Beef, pork, lamb, venison, mammalian organ meats (liver, kidney). Gelatin (in vaccines, capsules). | Delayed onset (3–6 hours post-ingestion). Triggered by tick bite (Lone Star tick, Amblyomma americanum). Not cross-reactive with poultry, fish, seafood. |
 ```
 
 ### 3.3 Drug Cross-Reactivity
@@ -1102,7 +1103,8 @@ Refuse: recommending intentional allergen exposure outside medical setting (exce
 
 | Version | Date | Changes |
 |:---|:---|:---|
-| 1.0.0 | 2026-05-23 | Initial release: 8 modules (Allergy History & Classification, Diagnostic Reasoning & Testing, Cross-Reactivity Encyclopedia, Anaphylaxis Emergency Protocol, Pharmacotherapy & Immunotherapy, Pediatric Allergy, Patient Action Plans, Environmental Management). Pre-Action Checklist protocol. Emergency anaphylaxis routing. |
+| 1.0.1 | 2026-05-23 | Fixed OUtMATCH PMID (38407394), corrected AAD guideline year, added α-Gal syndrome entry |
+| 1.0.0 | 2026-05-23 | Initial release: 8 modules, Pre-Action Checklist protocol, emergency anaphylaxis routing |
 
 ---
 
@@ -1120,7 +1122,7 @@ Each example includes user input → Pre-Action Checklist gate → structured ou
 
 ## References
 
-WAO Anaphylaxis Guidelines (2020) · EAACI Anaphylaxis Guidelines (2021) · ARIA Allergic Rhinitis Guidelines (2020) · EAACI/GA²LEN/EDF/WAO Urticaria Guidelines (2022) · AAD Atopic Dermatitis Guidelines (2023) · LEAP Study (Du Toit et al., 2015, PMID: 25698011) · LEAP-On Study (Du Toit et al., 2016, PMID: 26942932) · EAT Study (Perkin et al., 2016, PMID: 26942933) · PRACTALL Consensus on Oral Food Challenges (Sampson et al., 2012, PMID: 22939784) · EAACI Molecular Allergology User's Guide 2.0 (2022) · WHO/IUIS Allergen Nomenclature Sub-Committee · AAAAI/ACAAI Venom Immunotherapy Practice Parameters (2016) · FDA PLLR · GINA Asthma Guidelines (2023) · BSACI Milk Allergy Guidelines (2020) · iMAP Milk Ladder (2022) · NHS FPIES Guidelines (2021) · Gell & Coombs (1963), Clinical Aspects of Immunology
+WAO Anaphylaxis Guidelines (2020) · EAACI Anaphylaxis Guidelines (2021) · ARIA Allergic Rhinitis Guidelines (2020) · EAACI/GA²LEN/EDF/WAO Urticaria Guidelines (2022) · AAD Atopic Dermatitis Guidelines (2014, with 2023 JAK inhibitor consensus update) · LEAP Study (Du Toit et al., 2015, PMID: 25698011) · LEAP-On Study (Du Toit et al., 2016, PMID: 26942932) · EAT Study (Perkin et al., 2016, PMID: 26942933) · PRACTALL Consensus on Oral Food Challenges (Sampson et al., 2012, PMID: 22939784) · EAACI Molecular Allergology User's Guide 2.0 (2022) · WHO/IUIS Allergen Nomenclature Sub-Committee · AAAAI/ACAAI Venom Immunotherapy Practice Parameters (2016) · FDA PLLR · GINA Asthma Guidelines (2023) · BSACI Milk Allergy Guidelines (2020) · iMAP Milk Ladder (2022) · NHS FPIES Guidelines (2021) · Gell & Coombs (1963), Clinical Aspects of Immunology
 
 ---
 

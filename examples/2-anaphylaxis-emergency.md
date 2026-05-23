@@ -214,7 +214,7 @@ After ED discharge and clinical stability:
 | Ara h 6 | [test result] | Similar to Ara h 2 |
 | Ara h 8 | [test result] | If positive but Ara h 2/6 negative: likely birch-cross-reactive → OAS only, NOT systemic risk |
 
-**Evidence**: LEAP Study (Du Toit et al., 2015, PMID: 25698011); PALISADE OIT Trial (PALISADE Group, 2018, PMID: 30449234); OUtMATCH Trial (Wood et al., 2024, PMID: 3835129).
+**Evidence**: LEAP Study (Du Toit et al., 2015, PMID: 25698011); PALISADE OIT Trial (PALISADE Group, 2018, PMID: 30449234); OUtMATCH Trial (Wood et al., 2024, PMID: 38407394).
 
 ---
 
