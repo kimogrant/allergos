@@ -19,7 +19,7 @@ metadata:
 
 > 8 clinical modules · Pre-Action gates · Anaphylaxis-first routing  
 > Compatible with Cursor · Claude Code · Codex · OpenCode · Gemini CLI  
-> Sibling skill: [Hippocrates (clinical-skills)](https://github.com/kimogrant/clinical-skills)
+> Sibling skill: [Hippocrates / clinical-skills](https://github.com/kimogrant/clinical-skills) — invoke `/clinical-skills`
 
 **Progressive disclosure:** Load only the `references/` file for the module you need. Do not load all module files unless the user requests a comprehensive review.
 

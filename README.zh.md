@@ -2,8 +2,6 @@
 
 **过敏与免疫专科 AI Agent Skill** — 结构化病史、检查解读、交叉过敏、过敏性休克、免疫治疗、儿科与行动计划。
 
-**kimogrant** 技能系列：[clinical-skills (Hippocrates)](https://github.com/kimogrant/clinical-skills) · **Allergos**（本仓库）· [CEO OS](https://github.com/kimogrant/ceo-operating-system) · [Web3 赏金 PoC](https://github.com/kimogrant/web3-bounty-poc-report-skill) · [EVM 审计](https://github.com/kimogrant/evm-audit-skill)
-
 ---
 
 ## 安装
